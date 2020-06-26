@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
+import Dinner from './dinner';
 
 function App() {
   return (
-    <div className="App">
-    <h2>yes its Sunny</h2>
+    <div>
+    <Dinner daystatus="Hot" daystatuspart2="Rush"/>
+    <hr/>
+    <Dinner daystatus="Cool" daystatuspart2="Awsome"/>
     </div>
+
   );
 }
 
